@@ -1,0 +1,36 @@
+12 23
+0 11
+0 1 3
+0 2 3
+0 3 3
+0 4 3
+1 5 1
+1 6 1
+1 7 1
+1 8 1
+2 6 1
+2 7 1
+2 8 1
+2 9 1
+3 7 1
+3 8 1
+3 9 1
+3 10 1
+4 8 1
+5 11 1
+6 11 1
+7 11 1
+8 11 1
+9 11 1
+10 11 1
+
+// Input is taken from: https://codeforces.com/contest/1484/problem/C
+// source: 0, sink: n + m + 1
+// ith friend's vertex: i
+// ith day's vertex: n + i
+// source -> friend => (m + 1) / 2 capacity
+// friend -> day => 1 capacity
+// day -> sink => 1 capacity
+
+// n: number of friends
+// m: number of days
